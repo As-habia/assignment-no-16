@@ -1,0 +1,497 @@
+body {
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    overflow-x: hidden;
+    width: fit-content;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: rgb(219, 212, 212) !important;
+}
+
+.logo {
+    width: 25px;
+}
+
+.btn-dark {
+    background-color: black;
+}
+
+.card {
+    border: none;
+    background: none;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding-left: 7px;
+    height: 35px;
+    width: 200px;
+}
+
+.custom-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    padding: 20px 4px;
+}
+
+p {
+    color: rgb(90, 89, 89);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.border-radius {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 900px;
+    left: 40%;
+    border-radius: 190px;
+    background-color: #75BF7A;
+}
+
+.custom-col-left {
+    padding-left: 130px;
+}
+
+.custom-col-right {
+    padding-right: 130px;
+    text-align: end;
+}
+
+.image-logo {
+    width: 50px;
+}
+
+.tere-benefit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit {
+    color: #75BF7A;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.mobile {
+    display: none;
+}
+
+.image-one {
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+}
+
+.image-one-width {
+    text-align: center;
+}
+
+@media screen and (min-width:200px) and (max-width:800px) {
+
+    .image-one {
+        width: 200px;
+    }
+
+    .mobile {
+        display: block;
+        z-index: 100;
+
+    }
+
+    .border-radius {
+        display: none;
+    }
+
+    .order {
+        order: 1;
+    }
+
+    .hiddin {
+        display: none;
+    }
+
+    .custom-col-left {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .custom-col-right {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .d-flex-column {
+        flex-direction: column;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .border-radius {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 1200px;
+        border-radius: 190px;
+        display: block;
+        background-color: #7de484;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+    .border-radius {
+        left: 17%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:600px) {
+    .border-radius {
+        left: 23%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:700px) {
+    .border-radius {
+        left: 25%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    .border-radius {
+        left: 30%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .border-radius {
+        top: 1200px;
+        left: 37%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .border-radius {
+        top: 1000px;
+        left: 40%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}body {
+    box-sizing: border-box;
+    font-family: 'Gilroy';
+    overflow-x: hidden;
+    width: fit-content;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+}
+
+.nav-item {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+section {
+    background-color: rgb(248, 246, 246);
+}
+
+.logo {
+    width: 25px;
+}
+
+.btn-dark {
+    background-color: black;
+}
+
+.card {
+    border: none;
+    background: none;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px 0px;
+    flex-wrap: wrap;
+}
+
+input {
+    padding-left: 10px;
+    height: 35px;
+    width: 300px;
+}
+
+.custom-card {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 4px;
+    padding: 20px 4px;
+}
+
+p {
+    color: gray;
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.border-radius {
+    position: absolute;
+    width: 250px;
+    height: 250px;
+    top: 900px;
+    left: 40%;
+    border-radius: 190px;
+    background-color: #75BF7A;
+}
+
+.custom-col-left {
+    padding-left: 130px;
+}
+
+.custom-col-right {
+    padding-right: 130px;
+    text-align: end;
+}
+
+.image-logo {
+    width: 50px;
+}
+
+.tere-benefit {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.custom-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.edit {
+    color: #75BF7A;
+    font-size: 70px;
+    font-weight: bold;
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+}
+
+.mobile {
+    display: none;
+}
+
+.image-one {
+    width: 400px;
+}
+
+footer {
+    text-align: center;
+    background-color: rgb(0, 0, 0);
+}
+
+.image-one-width {
+    text-align: center;
+}
+
+@media screen and (min-width:200px) and (max-width:800px) {
+
+    .image-one {
+        width: 200px;
+    }
+
+    .mobile {
+        display: block;
+        z-index: 100;
+
+    }
+
+    .border-radius {
+        display: none;
+    }
+
+    .order {
+        order: 1;
+    }
+
+    .hiddin {
+        display: none;
+    }
+
+    .custom-col-left {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .custom-col-right {
+        padding: 0px;
+        text-align: center;
+    }
+
+    .d-flex-column {
+        flex-direction: column;
+    }
+
+    .center {
+        display: flex;
+        justify-content: center;
+    }
+
+    .border-radius {
+        position: absolute;
+        width: 300px;
+        height: 300px;
+        top: 1200px;
+        /* left: 1%; */
+        border-radius: 190px;
+        display: block;
+        background-color: #75BF7A;
+    }
+}
+
+@media screen and (min-width:200px) and (max-width:500px) {
+    .border-radius {
+        left: 17%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:500px) and (max-width:600px) {
+    .border-radius {
+        left: 23%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:600px) and (max-width:700px) {
+    .border-radius {
+        left: 25%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:800px) {
+    .border-radius {
+        left: 30%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:800px) and (max-width:1000px) {
+    .border-radius {
+        top: 1200px;
+        left: 37%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
+
+@media screen and (min-width:1000px) {
+    .border-radius {
+        top: 1000px;
+        left: 40%;
+    }
+
+    .image-one-width {
+        text-align: center;
+    }
+
+}
